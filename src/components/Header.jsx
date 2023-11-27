@@ -16,7 +16,7 @@ const header = () => {
       <div className="flex flex-1 items-center gap-2 border p-3 rounded-lg">
         <input
           placeholder="Arama Yap..."
-          className="outline-none flex-1"
+          className="outline-none flex-1 bg-transparent"
           type="text"
         />
         <BiSearch size={25} />
