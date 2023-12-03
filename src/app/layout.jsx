@@ -5,6 +5,7 @@ export const metadata = {
 import "./globals.css";
 import Header from "../components/Header";
 import Providers from "./Providers";
+import Tabs from "../components/Tabs";
 
 export default function RootLayout({ children }) {
   return (
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Providers>
           <Header />
+          <Tabs/>
           {children}
         </Providers>
       </body>
